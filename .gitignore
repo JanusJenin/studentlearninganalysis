@@ -1,6 +1,15 @@
+# Dependencies
 node_modules/
+
+# OS Files
 .DS_Store
+
+# Environment Variables
 .env
-Backend/uploads/
+
+# Uploaded files (ephemeral - not tracked in git)
+uploads/*
+!uploads/.gitkeep
+
+# Logs
 *.log
-!Backend/uploads/.gitkeep
