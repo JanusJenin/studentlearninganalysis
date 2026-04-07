@@ -1,0 +1,21 @@
+{
+  "users": [
+    { "id": 1, "role": "admin", "username": "admin", "name": "System Admin", "password": "password123" },
+    { "id": 2, "role": "teacher", "username": "teacher1", "name": "Mr. John Doe", "password": "password123" },
+    { "id": 3, "role": "student", "username": "student1", "name": "Alice Smith", "password": "password123" },
+    { "id": 4, "role": "student", "username": "student2", "name": "Bob Johnson", "password": "password123" },
+    { "id": 5, "role": "student", "username": "student3", "name": "Charlie Brown", "password": "password123" }
+  ],
+  "materials": [
+    { "id": 1, "title": "Introduction to Algorithms", "description": "Basic sorting and searching algorithms.", "url": "/api/materials/1/download" },
+    { "id": 2, "title": "Data Structures 101", "description": "Arrays, Linked Lists, Trees, Graphs.", "url": "/api/materials/2/download" }
+  ],
+  "assignments": [
+    { "id": 1, "studentId": 3, "fileUrl": "/uploads/sample1.pdf", "status": "submitted", "grade": 85, "filename": "sample1.pdf" }
+  ],
+  "learningLogs": [
+    { "studentId": 3, "logins": 15, "avgQuizScore": 88, "activeDays": 10, "pattern": "Consistent" },
+    { "studentId": 4, "logins": 4, "avgQuizScore": 40, "activeDays": 2, "pattern": "Irregular (Inconsistent)" },
+    { "studentId": 5, "logins": 12, "avgQuizScore": 78, "activeDays": 9, "pattern": "Consistent" }
+  ]
+}
